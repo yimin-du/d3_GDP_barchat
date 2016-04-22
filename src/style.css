@@ -1,0 +1,41 @@
+body {
+	background-color: #EEF5DB;
+}
+
+#container {
+	width: 800px;
+	margin: 0px auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+.bar {
+  fill: #028090;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.msg-box {
+	width: 100px;
+	height: 40px;
+	opacity: 0.7;
+}
